@@ -1,0 +1,157 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body { 
+  width:100%;
+  margin: 0;
+  padding: 0;
+  /*border: #ccc solid 7px;*/
+  color: #ffffff;
+  font-family: open sans, sans serif;
+}
+
+.boxes {
+  float: left;
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.contact,
+.resume {
+  padding: 10px 20px;
+  margin-left: 5%;
+  color: #ffffff;
+}
+
+.mini-icon {
+  margin-right: 15px;
+}
+
+article {
+  width: 20vw;
+  height: 33.33vh;
+  justify-content: center;
+}
+
+.profile {
+  width: 40vw;
+  background-color: #006daa;
+}
+
+h1 {
+  padding-left: 5%;
+  font-size: 30px;
+}
+
+.intro {
+  padding-left: 5%;
+}
+
+button {
+  background-color: #006daa;
+  border-style: solid #ffffff
+  color: #ffffff;
+  cursor: pointer;
+  margin: 7px;
+}
+
+.icon {
+  border: none;
+  cursor: pointer;
+  opacity: .75;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.picture {
+  width: 40%;
+  height: 100vh;
+  float: left;
+  background: url("https://images.robertharding.com/preview/RM/RH/VERTICAL/869-5337.jpg") no-repeat;
+}
+
+.square {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;  
+  align-items: center;
+}
+
+.two{
+  background-color: #061a40;
+}
+
+.four{
+  background-color: #439df2;
+}
+
+.five {
+  background-color: #006daa;
+}
+
+.three,
+.seven {
+background-color: #0353a4
+}
+
+.six,
+.eight {
+  background-color: #003559;
+}
+
+.dots {
+  float: right;
+  margin-right: 10px;
+  opacity: .5;
+}
+
+.carousel1 {
+  cursor: pointer;
+  left: 61%;
+  opacity: .5;
+  position: absolute;
+  top: 50%;
+}
+
+.carousel2 {
+  cursor: pointer;
+  left: 96%;
+  opacity: .5;
+  position: absolute;
+  top: 50%;
+}
+
+.carousel1:hover,
+.carousel2:hover {
+  opacity: 1.0;
+}
+
+
+@media screen and (max-width: 550px) {
+  body {
+
+    .picture {
+      width: 100%;
+      float: left;
+      position: absolute;
+      top:68%;
+    }
+
+    .boxes {
+      width: 100%;
+    }
+  }
+}
+
+
